@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Buy Me a Coffee: A modern crowdfunding platform designed to help digital creators monetize their work and build community support.
 
-## Getting Started
+Overview
+Buy Me a Coffee is a full-stack web application that empowers content creators—such as writers, artists, educators, and developers—to receive one-time or recurring contributions from their audience. The platform offers secure authentication and seamless payment processing, making it easy for supporters to show appreciation and for creators to focus on their work.Secure Authentication using Auth.js for user signup, login, and session management integrated with Razorpay payment gateway for smooth and secure transactions.
 
-First, run the development server:
+What the Project Does
 
-```bash
+Allows visitors to discover and support digital creators by making small contributions.
+Enables creators to create profiles, set up donation tiers, and view contribution history.
+Provides a dashboard for creators to manage their content, track earnings, and engage with supporters.
+
+Who It Is For
+
+Digital creators such as bloggers, YouTubers, podcasters, open-source developers, and educators.
+Supporters and fans who want to contribute directly to the work of creators they value.
+
+Why It Is Useful
+
+Direct monetization that reduces fees and middlemen costs.
+Small-donations that allow fans to support with any amount.
+Community engagement through payment messages and notifications.
+
+Tech Stack
+
+Frontend: Next.js, React
+Authentication: Auth.js (NextAuth)
+Backend: Node.js, Express.js (REST API)
+Database: MongoDB (MongoDB Atlas)
+Payments: Razorpay
+Styling: Tailwind CSS
+
+Installation and Setup
+
+Install dependencies:
+npm install
+
+Configuring environment variables by creating a .env file in the root directory:
+
+GITHUB_ID=your_github_id
+GITHUB_SECRET=your_github_secret
+NEXT_PUBLIC_KEY_ID=your_razorpay_key_id
+KEY_SECRET=your_razorpay_key_secret
+NEXT_PUBLIC_URL=http://localhost:3000
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_nextauth_secret
+MONGO_URI=your_mongodb_connection_uri
+
+Running the application:
+Start MongoDB locally or ensure your Atlas cluster is running.
+
+Start the server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and navigate to http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+As a Creator: Sign up, set up your profile, define donation tiers, and share your public link.
+As a Supporter: Browse creator profiles, select a donation amount, and complete payment via Razorpay.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Live Demo: https://buy-me-a-coffee.example.com
 
-## Learn More
+GitHub Repository: https://github.com/your-username/buy-me-a-coffee
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Developed by Prakash Shaw (https://github.com/Prakash97971).
