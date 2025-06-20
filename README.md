@@ -57,8 +57,7 @@ Usage:
 As a Creator: Sign up, set up your profile, define donation tiers, and share your public link.
 As a Supporter: Browse creator profiles, select a donation amount, and complete payment via Razorpay.
 
-Live Demo: https://buy-me-a-coffee.example.com
+Live Demo:[ https://buy-me-a-coffee.example.com](https://crowd-funding-website-git-main-prakash270s-projects.vercel.app)
 
-GitHub Repository: https://github.com/your-username/buy-me-a-coffee
-
+GitHub Repository: https://github.com/Prakash97971/Crowd_funding_website
 Developed by Prakash Shaw (https://github.com/Prakash97971).
